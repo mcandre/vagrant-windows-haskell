@@ -2,7 +2,7 @@
 
 # WARNING
 
-Some packages such as `happy` appear to be broken in i386 AKA x86 Windows.
+Some packages such as happy and clock appear to be broken in i386 AKA x86 Windows. This limits portability for HLint and Shake respectively, which depend on these broken packages.
 
 # VAGRANT CLOUD
 
