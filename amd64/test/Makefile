@@ -11,7 +11,7 @@ test-compile: test-boot
 	vagrant ssh --no-tty -c "powershell -Command \"cd C:\\vagrant; ghc -o hello.exe Hello.hs; .\hello\""
 
 test-cabal: test-boot
-	vagrant ssh --no-tty -c "powershell -Command \"cabal update; cabal install happy; which happy\""
+	vagrant ssh --no-tty -c "powershell -Command \"cabal update; cabal install shake; where.exe shake\""
 
 clean-vm:
 	-vagrant destroy -f
