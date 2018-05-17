@@ -1,5 +1,9 @@
 # vagrant-windows-haskell: a Vagrant box for building Haskell binaries for Windows
 
+# WARNING
+
+Some packages such as `happy` appear to be broken in i386 AKA x86 Windows.
+
 # VAGRANT CLOUD
 
 * https://app.vagrantup.com/mcandre/boxes/vagrant-windows-haskell-amd64
